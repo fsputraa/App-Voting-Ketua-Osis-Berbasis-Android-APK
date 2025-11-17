@@ -1,0 +1,46 @@
+name: votingosis_smpn7pbm
+description: Aplikasi Voting OSIS SMPN 7
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  supabase_flutter: ^1.10.21
+  flutter_dotenv: ^5.1.0
+  cupertino_icons: ^1.0.8
+  animate_do: ^3.1.2
+  fl_chart: ^0.63.0
+  pdf: ^3.10.4
+  printing: ^5.14.2
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+  font_awesome_flutter: ^10.7.0
+  flutter_animate: ^4.2.0
+  image_picker: ^1.0.4
+  path: ^1.9.0
+  uuid: ^4.2.2
+  iconsax: ^0.0.8
+  awesome_dialog: ^3.2.1
+  intl: ^0.20.2
+  awesome_snackbar_content: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # ✅ Versi 5.0.0 ke atas deprecated dan sering konflik
+
+dependency_overrides:
+  sign_in_with_apple:
+    path: dummy_plugins/sign_in_with_apple
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - env.txt

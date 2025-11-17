@@ -1,0 +1,5 @@
+name: sign_in_with_apple
+description: dummy override
+version: 0.0.1
+environment:
+  sdk: '>=2.17.0 <4.0.0'
